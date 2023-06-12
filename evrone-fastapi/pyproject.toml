@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "evrone-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Botalov Serg <89090168690@mail.ru>"]
+readme = "README.md"
+packages = [{include = "evrone_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.97.0"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.16"
+python-multipart = "^0.0.6"
+rsa = "^4.9"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
